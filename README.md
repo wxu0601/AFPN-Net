@@ -6,8 +6,14 @@ With the rapid growth of spatial transcriptomics (ST) data, accurate identificat
 DPLFC: The primary source: https://github.com/LieberInstitute/spatialLIBD
 （A sample dataset is provided in this repository to help users run and test the code. The remaining datasets used in the experiments will be uploaded progressively in future updates.）
 # Usage
+
 To run AFPN-Net on the DLPFC dataset, please execute:
+
+```bash
 python run_dlpfc.py
+```
+
+Before running the code, please make sure that the dataset path in `run_dlpfc.py` is correctly set.
 
 
 
